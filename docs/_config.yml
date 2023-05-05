@@ -1,7 +1,7 @@
 site: Konrad Rydzak personal website
 url: https://konradrydzak.github.io/
 title: Konrad Rydzak personal website
-description: My personal website with blog posts, completed projects/courses/tutorials with comments, and more. 
+description: My personal website with blog posts, completed projects/courses/tutorials with comments, and more.
 author:
   name: konradrydzak
   email: konradrydzakcontact@gmail.com
@@ -14,19 +14,19 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:
@@ -35,7 +35,7 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  
+
 defaults:
   -
     scope:
