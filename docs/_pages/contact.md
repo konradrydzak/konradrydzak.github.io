@@ -3,10 +3,7 @@ layout: page
 title: Contact
 ---
 
-Contact
+# Email 📧
 
-### Just contact me here:
-
-Call me at: 📱
-
-Write to me at: 📧
+> If you want to know more, feel free to send me an email:  
+<konradrydzakcontact@gmail.com>
