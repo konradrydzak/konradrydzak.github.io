@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-# Email 📧
+## Email 📧
 
-> If you want to know more, feel free to send me an email:  
+***If you want to know more, feel free to send me an email:***  
 <konradrydzakcontact@gmail.com>
