@@ -7,5 +7,6 @@ Contact
 
 ### Just contact me here:
 
-Call me at: :iphone:
-Write to me at: :email:
+Call me at: 📱
+
+Write to me at: 📧
