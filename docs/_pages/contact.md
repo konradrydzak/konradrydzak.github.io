@@ -5,6 +5,7 @@ title: Contact
 
 Contact
 
-### Test
+### Just contact me here:
 
-- Call me
+Call me at: :iphone:
+Write to me at: :email:
