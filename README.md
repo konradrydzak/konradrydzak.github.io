@@ -1,7 +1,7 @@
-# <konradrydzak.github.io>
+# [konradrydzak.github.io](https://konradrydzak.github.io/)
 
-My personal website with ***Blog*** posts (about my projects, skills, lessons learned, and courses completed) and also an ***About me*** section and ***Contact*** info.  
-The blog content on the site is easily searchable.  
+My personal website with [***Blog***](https://konradrydzak.github.io/) posts (about my projects, skills, lessons learned, and courses completed) and also an [***About me***](https://konradrydzak.github.io/about) section and [***Contact***](https://konradrydzak.github.io/contact) info.  
+The blog content on the site is easily [***searchable***](https://konradrydzak.github.io/search).  
 
 This website serves as a place for my additional thoughts and comments on my portfolio, and I think it's a nice addition to the resume. 📋
 
