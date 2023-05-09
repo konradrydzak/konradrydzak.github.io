@@ -1,6 +1,6 @@
 *,:after,:before {
 	box-sizing:border-box;
-	background-color: rgb(238, 238, 238);
+	background-color:inherit;
 	color:inherit;
 	margin:0;
 	padding:0;
@@ -12,7 +12,7 @@ body {
     text-rendering: optimizeLegibility;
 	line-height:1.5;
 	font-size: 1rem;
-	color: rgb(68, 68, 68);
+	color: rgb(22, 23, 26);
 }
 
 nav ul {
