@@ -26,7 +26,7 @@ If we want to be precise, it's important to mention, that GitHub uses a special 
 For a quick lookup on anything you commonly might need, I recommend using any [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 that you might find useful for yourself. After knowing what is what from the GitHub docs, a cheatsheet is all you need to
 double-check your syntax, or to look up any missing pieces you may have forgotten.  
-And I don't need to tell you that many integrated development environments (IDEs) have a preview option for 
+And I probably don't need to tell you that many integrated development environments (IDEs) have a preview option for 
 Markdown files. This allows you to see a live preview of your content while writing, which can be helpful in ensuring 
 that your formatting looks right. Here's an example from PyCharm:  
 
