@@ -30,7 +30,7 @@ And I don't need to tell you that many integrated development environments (IDEs
 Markdown files. This allows you to see a live preview of your content while writing, which can be helpful in ensuring 
 that your formatting looks right. Here's an example from PyCharm:  
 
-![Pycharm Markdown preview option](/docs/assets/images/Preview_option.png)
+![Pycharm Markdown preview option](/docs/assets/images/Pycharm-preview-option.png)
 
 ### Practicing typing... just typing
 
