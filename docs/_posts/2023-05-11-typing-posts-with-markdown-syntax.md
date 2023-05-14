@@ -10,7 +10,7 @@ But still for everyone, let me summarize all the relevant sources and syntax tip
 
 ### Starting from the bottom
 
-If you want to started with [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github), you probably 
+If you want to get started with [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github), you probably 
 should just [Start writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)... 
 No kidding, everything from the [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 up to advanced formatting is here, concise and easy to follow. I recommend reading through it all, even if you don't 
