@@ -45,5 +45,5 @@ I recommend logging in to save your progress, and checking the settings for any 
 
 I'll leave you to it now with an inspiring quote from Master Yoda: ***"Do or do not, there is no try."***.
 ```pythonregexp
-\b(r\D{2}\S{2})\W( ).*?([^dy\ ]{6}).*?(\W)\ .*?(.{3})\Sself\n.*?([ ]).*?(\w+)(?= [olive]{4}).*?g[ear]{3}t(.)
+\b(r\D{2}\S{2})\W( ).*?([^dy\ ]{6}).*?(\,)\ .*?(.{3})\Sself\n.*?([ ]).*?(\w+)(?= [olive]{4}).*?g[ear]{3}t(.)
 ```
