@@ -42,3 +42,7 @@ One line quick fix, and we're merging to main.
 ### Victory! But what's that? You don't like it? Hmmm...
 
 Yes, I know: not everyone prefers the dark mode, and I understand that. I'm not forcing my opinion on you, or rather ***technically*** I am for the time being, but I promise: if there is a day when I will visit my website, find the energy, courage and a working monkey brain inside me to figure out how to add a toggle to switch between light mode and dark mode - I will do it for sure!
+
+<br>
+
+> By the way: Happy Pi-Day! 🥳
