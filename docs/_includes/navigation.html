@@ -3,7 +3,7 @@
       <nav role="navigation">
 <ul>
    {% for item in site.data.navigation.links %}
-      {% if item.separate_before %} <br> {% endif %}
+      {% if item.separate_before %} <li><br></li> {% endif %}
       <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %} {% if item.is_feed %} class="feed"{% endif %}>{{ item.title }}</a></li>
    {% endfor %}
 </ul>
