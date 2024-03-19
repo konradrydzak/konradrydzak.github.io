@@ -54,3 +54,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "googleb785b900fe170bed.html"
+    values:
+      sitemap: false

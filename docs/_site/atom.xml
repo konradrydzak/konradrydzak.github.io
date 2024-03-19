@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Konrad Rydzak personal website</title>
+ <link href="https://konradrydzak.github.io/atom.xml" rel="self"/>
+ <link href="https://konradrydzak.github.io/"/>
+ <updated>2024-03-19T16:21:13+01:00</updated>
+ <id>https://konradrydzak.github.io</id>
+ <author>
+   <name>konradrydzak</name>
+   <email>konradrydzakcontact@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Switching my personal website theme to dark mode</title>
+   <link href="https://konradrydzak.github.io/2024/03/14/switching-my-personal-website-theme-to-dark-mode"/>
+   <updated>2024-03-14T00:00:00+01:00</updated>
+   <id>https://konradrydzak.github.io/2024/03/14/switching-my-personal-website-theme-to-dark-mode</id>
+   <content type="html">&lt;p&gt;Every now and then I take a quick look at my portfolio, resume, LinkedIn, GitHub, all my project websites to check if everything is up-to-date and working.
+Yesterday, while checking this page, I had a 💡 moment.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Or rather, my eyes hurt from seeing all the white brightness of the default &lt;a href=&quot;https://github.com/ronv/sidey&quot;&gt;Sidey jekyll theme&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;join-me-on-the-dark-side&quot;&gt;Join me on the dark side…&lt;/h3&gt;
+
+&lt;p&gt;I prefer to use dark mode whenever I can (sue me!), so I thought I’d try to switch to it for my website. I thought “how hard can it be? just a few &lt;em&gt;css&lt;/em&gt; color properties to change/set and all will be well…”. Now I know how naive that was!&lt;/p&gt;
+
+&lt;p&gt;But don’t get discouraged, it’s really not that hard (&lt;strong&gt;&lt;em&gt;if you know what you’re doing&lt;/em&gt;&lt;/strong&gt; 😉).&lt;/p&gt;
+
+&lt;p&gt;And to help you out - see how the difference is like night and day (but reversed):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Sidey-jekyll-light-mode-theme.png&quot; alt=&quot;Sidey jekyll original light mode theme&quot; /&gt;
+&lt;img src=&quot;/assets/images/Sidey-jekyll-dark-mode-theme.png&quot; alt=&quot;My custom Sidey jekyll dark mode theme&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;changing-cascade-style-oh-no-now-everything-is-black-or-white---not-inverted&quot;&gt;Changing Cascade Style… Oh, no! Now everything is black &lt;em&gt;or&lt;/em&gt; white - not inverted!&lt;/h3&gt;
+
+&lt;p&gt;What’s the easiest way to find out what colors a website uses? Of course, &lt;strong&gt;not&lt;/strong&gt; reading the &lt;em&gt;docs/_sass/_main.scss&lt;/em&gt; file first is the best way to start…
+But in all seriousness, simply going to the site and hitting ‘Inspect’ is quick, clever and easy. A few attempts of changing the hex or rgb values found, and we’re golden.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As a side note, I highly recommend not using pure black as a background - it’s just weird.
+What I’m using here is &lt;em&gt;#121212&lt;/em&gt; for example, just a little bit off &lt;strong&gt;black&lt;/strong&gt; works wonders.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;everything-is-fine-and-dandy-so-wheres-the-catch&quot;&gt;Everything is fine and dandy, so where’s the catch?&lt;/h3&gt;
+
+&lt;p&gt;We’ve figured out what to change, experimented with some color values that look nice, gone back to the &lt;em&gt;css&lt;/em&gt; file, formatted it, changed every color/background/CTRL+F: ‘#’ or ‘rgb(…)’. 
+Now just commit all of it, push it to a “style-testing” branch, build, deploy and see it in all it’s glory!&lt;/p&gt;
+
+&lt;p&gt;But wait a minute, Blog(s) are good, About me and Contact is fine, but what’s up with the Search bar being so bright all of a sudden?&lt;/p&gt;
+
+&lt;p&gt;If you want, you can check the commit history to see how I blatantly pasted a fixed input style for the search bar into my website’s (mentioned everywhere) &lt;em&gt;css&lt;/em&gt; file. 
+Surprise, surprise - it didn’t work. Silly me spent half an hour finding out that the &lt;em&gt;docs/_pages/search.md&lt;/em&gt; file had set input style inside!
+One line quick fix, and we’re merging to main.&lt;/p&gt;
+
+&lt;h3 id=&quot;victory-but-whats-that-you-dont-like-it-hmmm&quot;&gt;Victory! But what’s that? You don’t like it? Hmmm…&lt;/h3&gt;
+
+&lt;p&gt;Yes, I know: not everyone prefers the dark mode, and I understand that. I’m not forcing my opinion on you, or rather &lt;strong&gt;&lt;em&gt;technically&lt;/em&gt;&lt;/strong&gt; I am for the time being, but I promise: if there is a day when I will visit my website, find the energy, courage and a working monkey brain inside me to figure out how to add a toggle to switch between light mode and dark mode - I will do it for sure!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;By the way: Happy Pi-Day! 🥳&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Advent of Code - festive daily coding challenges</title>
+   <link href="https://konradrydzak.github.io/2023/12/04/advent-od-code-festive-daily-coding-challenges"/>
+   <updated>2023-12-04T00:00:00+01:00</updated>
+   <id>https://konradrydzak.github.io/2023/12/04/advent-od-code-festive-daily-coding-challenges</id>
+   <content type="html">&lt;p&gt;Hey guys! 🚀 Guess what’s been keeping me busy coding lately (outside of work 😉)? A friend of mine suggested to me: &lt;a href=&quot;https://adventofcode.com/2023&quot;&gt;Advent of Code 2023&lt;/a&gt;! If you haven’t heard of it, think of it as a programmer’s advent calendar, with daily coding challenges for all skill levels and languages.&lt;/p&gt;
+
+&lt;h3 id=&quot;discovering-the-advent-of-code-magic&quot;&gt;Discovering the Advent of Code magic&lt;/h3&gt;
+
+&lt;p&gt;I started with a slight delay on day 3 of the &lt;a href=&quot;https://adventofcode.com/2023&quot;&gt;Advent of Code 2023&lt;/a&gt;, and I was immediately hooked (don’t worry, you can still do earlier days - and even go as far back as 2015!).&lt;/p&gt;
+
+&lt;p&gt;The idea of daily coding challenges sounded like the perfect recipe for keeping my coding skills sharp, and maybe picking up some cool problem-solving tricks along the way. The best part? It’s designed for beginners and experienced developers alike.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re curious, check out the &lt;a href=&quot;https://adventofcode.com/2023/about&quot;&gt;About&lt;/a&gt; page on their website. It’s not just about coding; it’s about building a cool community, sharing knowledge, and having a blast coding together.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;hanging-out-in-the-advent-of-code-club&quot;&gt;Hanging out in the Advent of Code club&lt;/h3&gt;
+
+&lt;p&gt;One of the highlights of my Advent of Code journey has been the buzzing community over at &lt;a href=&quot;https://old.reddit.com/r/adventofcode/&quot;&gt;Reddit&lt;/a&gt;. This subreddit is where the rest of the action is! It’s like a virtual water cooler where people chat about their solutions, share wisdom and, of course, ask for help when the going gets tough. It doesn’t matter if you’re a coding wizard or just starting out - everyone is welcome.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Quick tip: Dive into the Advent of Code Reddit community. You might pick up some cool tricks, get a bit of advice, or find a sample input that reveals the most common coding slip-ups.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;coding-adventures-and-high-fives&quot;&gt;Coding Adventures and High-Fives&lt;/h3&gt;
+
+&lt;p&gt;Advent of Code has been an absolute blast, pushing me to think outside the box and solve problems like a coding star. Each puzzle comes in two parts, building on this cool theme, and it’s not just about writing lines of code - it’s about exploring new problem-solving territories and taking your coding game to the next level.&lt;/p&gt;
+
+&lt;p&gt;As we get ready for the festive season, I highly recommend jumping on the Advent of Code train. It’s not just about cracking puzzles, it’s about celebrating the sheer joy of coding and hanging out with a bunch of awesome people who love it too.&lt;/p&gt;
+
+&lt;p&gt;Happy coding, and may your code be bug-free and your algorithms be slick! Good luck getting all 50 gold stars!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fun games for learning CSS</title>
+   <link href="https://konradrydzak.github.io/2023/06/01/fun-games-for-learning-css"/>
+   <updated>2023-06-01T00:00:00+02:00</updated>
+   <id>https://konradrydzak.github.io/2023/06/01/fun-games-for-learning-css</id>
+   <content type="html">&lt;p&gt;For me CSS &lt;strong&gt;is hard&lt;/strong&gt;. I know I need to learn more about HTML, CSS, Javascript to use them effectively combined, 
+but for learning? They are definitely not equal for me:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Javascript? I get it, it’s just another scripting language.&lt;/li&gt;
+  &lt;li&gt;HTML? Okay, I understand the syntax and I know the basics.&lt;/li&gt;
+  &lt;li&gt;but CSS? Please no, that monstrosity is scary!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-to-do-what-to-do&quot;&gt;What to do? What to do…&lt;/h3&gt;
+
+&lt;p&gt;As I’ve written before, the best learning comes from sources that are: easy to read and understand, 
+are short/have small split sections and are interactive.&lt;/p&gt;
+
+&lt;p&gt;But what if you reeeeeeealy don’t like learning that particular thing (CSS 👀)? Here comes procrastination! But we can use it, and bend it our way.&lt;/p&gt;
+
+&lt;p&gt;I’m talking about playing games.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yes, sometimes instead of cleaning the apartment all I can think about is that I’d love to play a video game right now. 
+And in my opinion, the same mindset and strategy can be used to learn hard things.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here I’m going to list some fun games to help you learn CSS that you can play in your browser:&lt;/p&gt;
+
+&lt;h3 id=&quot;css-diner&quot;&gt;&lt;a href=&quot;http://cssdiner.com&quot;&gt;CSS Diner&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A visually appealing way to learn the basics of CSS selectors. Works smoothly and beating each level feels great. 
+It’s so clever what Luke Pacholski (&lt;a href=&quot;https://github.com/flukeout/css-diner&quot;&gt;GitHub&lt;/a&gt;) has done, and I think it’s a prime example of what can be done to make learning more fun.&lt;/p&gt;
+
+&lt;p&gt;Now go and clear out some plates! 🍽️&lt;/p&gt;
+
+&lt;h3 id=&quot;flexbox-defence&quot;&gt;&lt;a href=&quot;http://www.flexboxdefense.com/&quot;&gt;Flexbox Defence&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A tower defense game with a twist: all towers must be positioned with CSS flexbox.&lt;/p&gt;
+
+&lt;p&gt;Now that’s a proper game! Who doesn’t like to play a tower defense game? I’m trully amazed by the fact that you can teach CSS things like: &lt;em&gt;justify-content&lt;/em&gt;, &lt;em&gt;align-items&lt;/em&gt;, &lt;em&gt;flex-direction&lt;/em&gt;, &lt;em&gt;order&lt;/em&gt; and &lt;em&gt;align-self&lt;/em&gt; in such a way.&lt;/p&gt;
+
+&lt;p&gt;There is no stopping in learning CSS when you can stop the incoming enemies from getting past your defenses!&lt;/p&gt;
+
+&lt;h3 id=&quot;flexbox-froggy-and-grid-garden&quot;&gt;&lt;a href=&quot;https://flexboxfroggy.com/&quot;&gt;Flexbox Froggy&lt;/a&gt; and &lt;a href=&quot;https://cssgridgarden.com/&quot;&gt;Grid Garden&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepip.com/about/&quot;&gt;Codepip&lt;/a&gt; has a few educational games up its sleeve. The two mentioned here are free to play: 
+Flexbox Froggy is another game for learning CSS flexbox and Grid Garden teaches about &lt;del&gt;watering crops&lt;/del&gt; CSS grid.&lt;/p&gt;
+
+&lt;p&gt;Instructions are clear, gameplay is smooth and so is the learning process involved. I really enjoyed going through all the levels of
+both of these games.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Since today is &lt;a href=&quot;https://en.wikipedia.org/wiki/Children%27s_Day&quot;&gt;Children’s Day in Poland&lt;/a&gt;, I hope you’ll have fun and feel 
+like a kid (not by getting angry about having to learn, but) playing the games listed above. Happy coding! 🥳&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Working with and practicing regex</title>
+   <link href="https://konradrydzak.github.io/2023/05/14/working-with-and-practicing-regex"/>
+   <updated>2023-05-14T00:00:00+02:00</updated>
+   <id>https://konradrydzak.github.io/2023/05/14/working-with-and-practicing-regex</id>
+   <content type="html">&lt;p&gt;Whether you want to learn about &lt;a href=&quot;https://en.wikipedia.org/wiki/Regular_expression&quot;&gt;regex&lt;/a&gt;, are already using it, or are 
+trying to master this ancient magic of pattern matching (for… reasons)&lt;br /&gt;
+&lt;img src=&quot;https://imgs.xkcd.com/comics/regular_expressions.png&quot; alt=&quot;regex superhero&quot; /&gt;&lt;br /&gt;
+I’ll guide you through some tools for learning, testing, and practicing while having fun!&lt;/p&gt;
+
+&lt;h3 id=&quot;for-beginners-and-to-refresh-the-material&quot;&gt;For beginners and to refresh the material&lt;/h3&gt;
+
+&lt;p&gt;The best learning sites in my opinion, always have a few things in common:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;are easy to read and understand,&lt;/li&gt;
+  &lt;li&gt;have short chapters, paragraphs or sections to learn,&lt;/li&gt;
+  &lt;li&gt;are interactive in some way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With that in mind, I can show you a great example of exactly that: &lt;a href=&quot;https://regexone.com/&quot;&gt;RegexOne.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And it’s sister: &lt;a href=&quot;https://sqlbolt.com/&quot;&gt;SQLBolt.com&lt;/a&gt; for learning… SQL.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It covers a wide variety of topics, starting small and going all the way to advanced features.&lt;br /&gt;
+Seriously, give it a try, I can guarantee you won’t realize how fast time has flown by the time you finish the last lesson.&lt;/p&gt;
+
+&lt;h3 id=&quot;try-it-out-for-yourself&quot;&gt;Try it out for yourself&lt;/h3&gt;
+
+&lt;p&gt;Once you’ve mastered the basics, the best way to get started is to actually use the new tools for whatever you may need. 
+Fill in the blanks every time you are struggling with a new problem while you are heavily testing your ideas with an easy to use online tool:
+&lt;a href=&quot;https://regex101.com/&quot;&gt;regex101.com&lt;/a&gt;.&lt;br /&gt;
+I use it with Python selected, text to be parsed inserted as a test string (sometimes with additional flags set: e.g.: dot as newline) and my initial idea for regex placed. 
+The results are live and easy to check, and a quick reference guide will help you every step of the way if you need any tips. 
+There you can also see if you find anything new and useful (for example, check out positive/negative lookahead/lookbehind, it’s really useful in some cases).&lt;/p&gt;
+
+&lt;h3 id=&quot;homework-but-fun&quot;&gt;Homework, but fun&lt;/h3&gt;
+
+&lt;p&gt;Last but not least, if you feel the need to challenge yourself and actually measure your knowledge, I can point you to:
+&lt;a href=&quot;https://regexcrossword.com/&quot;&gt;Regex Crossword&lt;/a&gt;. As the name says: it’s just a crossword with regex, simple but great!
+You’ll get the hang of it if you start with the tutorial and then work your way through the levels. 
+I recommend logging in to save your progress, and checking the settings for any improvements to your experience.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;I’m just sad that the creators decided to go with a new mobile look, instead of the old traditional website 
+(you can search online to see what that looked like if you’re curious).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll leave you to it now with an inspiring quote from Master Yoda: &lt;strong&gt;&lt;em&gt;“Do or do not, there is no try.”&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-pythonregexp&quot;&gt;\b(r\D{2}\S{2})\W( ).*?([^dy\ ]{6}).*?(\,)\ .*?(.{3})\Sself\n.*?([ ]).*?(\w+)(?= [olive]{4}).*?g[ear]{3}t(.)
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Typing posts with Markdown syntax</title>
+   <link href="https://konradrydzak.github.io/2023/05/11/typing-posts-with-markdown-syntax"/>
+   <updated>2023-05-11T00:00:00+02:00</updated>
+   <id>https://konradrydzak.github.io/2023/05/11/typing-posts-with-markdown-syntax</id>
+   <content type="html">&lt;p&gt;If you’ve ever written README file for GitHub, you probably know what this is about.&lt;br /&gt;
+But still for everyone, let me summarize all the relevant sources and syntax tips for writing posts just like on this blog site!&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Actually, if you want to write it &lt;em&gt;exactly the same way&lt;/em&gt;, you can just look up the raw &lt;code&gt;.md&lt;/code&gt; files in my site repo.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;starting-from-the-bottom&quot;&gt;Starting from the bottom&lt;/h3&gt;
+
+&lt;p&gt;If you want to get started with &lt;a href=&quot;https://docs.github.com/en/get-started/writing-on-github&quot;&gt;Writing on GitHub&lt;/a&gt;, you probably 
+should just &lt;a href=&quot;https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github&quot;&gt;Start writing on GitHub&lt;/a&gt;… 
+No kidding, everything from the &lt;a href=&quot;https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&quot;&gt;Basic writing and formatting syntax&lt;/a&gt;
+up to advanced formatting is here, concise and easy to follow. I recommend reading through it all, even if you don’t 
+need everything right away. It’s great to know in the back of your head what you can do with Markdown magic!&lt;/p&gt;
+
+&lt;p&gt;If we want to be precise, it’s important to mention, that GitHub uses a special &lt;a href=&quot;https://github.github.com/gfm/#what-is-github-flavored-markdown-&quot;&gt;Flavored Markdown&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Side notes:
+    &lt;ul&gt;
+      &lt;li&gt;GitHub Flavored Markdown specification is actually based on &lt;a href=&quot;https://spec.commonmark.org/&quot;&gt;CommonMark Spec&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;Markdown was originally developed by John Gruber and published in 2004 in the form of a &lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot;&gt;syntax description&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tips-and-tricks&quot;&gt;Tips and tricks&lt;/h3&gt;
+
+&lt;p&gt;For a quick lookup on anything you commonly might need, I recommend using any &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Markdown Cheatsheet&lt;/a&gt;
+that you might find useful for yourself. After knowing what is what from the GitHub docs, a cheatsheet is all you need to
+double-check your syntax, or to look up any missing pieces you may have forgotten.&lt;br /&gt;
+And I probably don’t need to tell you that many integrated development environments (IDEs) have a preview option for 
+Markdown files. This allows you to see a live preview of your content while writing, which can be helpful in ensuring 
+that your formatting looks right. Here’s an example from PyCharm:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Pycharm-preview-option.png&quot; alt=&quot;Pycharm Markdown preview option&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;practicing-typing-just-typing&quot;&gt;Practicing typing… just typing&lt;/h3&gt;
+
+&lt;p&gt;Last but not least, typing posts with Markdown syntax comes down to… well just typing. And I cannot recommend enough 
+this new site I recently discovered called &lt;a href=&quot;https://www.keybr.com/&quot;&gt;keybr.com&lt;/a&gt;. It’s a fantastic resource for practicing 
+typing correctly, increasing your typing speed, and of course typing without looking at the keyboard. The teaching method employed by Keybr is refreshing, offering generated lessons that match your skill level instead of repetitive exercises.&lt;br /&gt;
+Okay, I won’t spoil too much here, just go and spend 5 minutes on the site, even to just test your typing speed, accuracy 
+and score on the site. Good luck and have fun practicing typing, and typing in Markdown!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting started with GitHub Pages</title>
+   <link href="https://konradrydzak.github.io/2023/05/09/getting-started-with-github-pages"/>
+   <updated>2023-05-09T00:00:00+02:00</updated>
+   <id>https://konradrydzak.github.io/2023/05/09/getting-started-with-github-pages</id>
+   <content type="html">&lt;p&gt;Welcome to my personal website! I’m excited to start using this GitHub Page for blogging but first things first, 
+let me tell you about the process I went through to get this site up and running.&lt;/p&gt;
+
+&lt;h3 id=&quot;following-the-github-pages-documentation&quot;&gt;Following the GitHub Pages Documentation&lt;/h3&gt;
+
+&lt;p&gt;To begin my journey, I turned to the &lt;a href=&quot;https://docs.github.com/en/pages/quickstart&quot;&gt;official GitHub Pages documentation&lt;/a&gt;. 
+The GitHub Pages Quickstart tutorial provided a solid foundation and step-by-step instructions for getting started. 
+The documentation covers everything from creating a repository to configuring settings and deploying your site. 
+If you’re new to GitHub Pages, I highly recommend checking out this extensive guide.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you need a more “by the hand” tutorial, &lt;a href=&quot;https://github.com/skills/github-pages&quot;&gt;here&lt;/a&gt; 
+is a great introduction to building a site with GitHub Pages from the &lt;code&gt;GitHub Skills&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;using-the-sidey-jekyll-blog-theme&quot;&gt;Using the Sidey Jekyll Blog Theme&lt;/h3&gt;
+
+&lt;p&gt;For the design of my personal website, I decided to use the Sidey Jekyll blog theme. 
+Created by &lt;a href=&quot;https://github.com/ronv&quot;&gt;Ronv&lt;/a&gt;, Sidey offers an elegant and minimalist design that perfectly suits my vision. 
+The theme has a simple, clean design and focuses on presenting material in a user-friendly way.&lt;br /&gt;
+Setup is not that intuitive, in fact copying/forking everything from &lt;a href=&quot;https://github.com/ronv/sidey/tree/master&quot;&gt;Sidey GitHub repository&lt;/a&gt; is probably the easiest way. 
+While some customization may require a deeper understanding, you can experiment and modify the theme to your liking through trial and error. For example, I’ve removed tags for blog posts and temporarily disabled certain feeds such as JSON, XML, and RSS.&lt;br /&gt;
+Overall, using Sidey allows me to focus on writing and sharing my thoughts, while the theme takes care of the overall presentation and layout of my blog posts. It’s a great way to present my content in a professional and aesthetically pleasing way.&lt;br /&gt;
+Additionally, this website serves as a place for my additional thoughts and comments on my portfolio, making it a valuable addition to my resume. 📋&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
