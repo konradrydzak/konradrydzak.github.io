@@ -10,9 +10,14 @@ This website serves as a place for my additional thoughts and comments on my por
 - set up a GitHub Page for my profile (based on [Quickstart for GitHub Pages](https://docs.github.com/en/pages/quickstart))
 - recreating the [Sidey jekyll theme](https://github.com/ronv/sidey)
 - using HTML, CSS and JS for building pages
+- writing Markdown files for pages and blog posts
+- generating website with jekyll (by jekyll and bundler gems, jekyll plugins, etc.)
+- providing JSON, XML and RSS feeds
+- set up a sitemap.xml, robots.txt file for site indexing (*you can now search for my website on Google!*)
+- optimised the site to get a perfect **4x100/100** score on Google PageSpeed Insights, both on [desktop](https://pagespeed.web.dev/analysis/https-konradrydzak-github-io/l4m52u9rol?form_factor=desktop) and [mobile](https://pagespeed.web.dev/analysis/https-konradrydzak-github-io/l4m52u9rol?form_factor=mobile)!
 
 ### Possible improvements
 
-- add `tags` to blog posts (disabled for now, because as far as I know Sidey jekyll theme uses **hardcoded** tags)
-- provide JSON, XML and RSS feeds
-- set up a robots.txt file for site indexing (not applicable without XML and sitemap.xml)
+- add `tags`, `categories` to blog posts
+- add `pagination` to blog posts list view
+- add `next/previous post` button to blog post view
