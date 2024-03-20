@@ -4,13 +4,71 @@
  <title>Konrad Rydzak | Personal website</title>
  <link href="https://konradrydzak.github.io/atom.xml" rel="self"/>
  <link href="https://konradrydzak.github.io/"/>
- <updated>2024-03-20T16:37:06+01:00</updated>
+ <updated>2024-03-20T20:16:14+01:00</updated>
  <id>https://konradrydzak.github.io</id>
  <author>
    <name>konradrydzak</name>
    <email>konradrydzakcontact@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Optimizing my personal website - with jekyll, feeds, Google indexing, and perfect PageSpeed scores</title>
+   <link href="https://konradrydzak.github.io/2024/03/20/optimizing-my-personal-website-with-jekyll-feeds-google-indexing-and-perfect-pagespeed-scores"/>
+   <updated>2024-03-20T00:00:00+01:00</updated>
+   <id>https://konradrydzak.github.io/2024/03/20/optimizing-my-personal-website-with-jekyll-feeds-google-indexing-and-perfect-pagespeed-scores</id>
+   <content type="html">&lt;p&gt;Recently, while updating the content and theme of this website, I’ve got the urge to undertake a more behind-the-scenes overhaul of it. 
+I knew I had a few improvements waiting to be implemented and saw a few areas where I lacked the knowledge to make better use of the available features of the static website generator.&lt;/p&gt;
+
+&lt;h3 id=&quot;embracing-jekyll-and-bundler-gems&quot;&gt;Embracing jekyll and bundler gems&lt;/h3&gt;
+
+&lt;p&gt;First of all, for any test feature development, I would need a place to see the results without having to upload the code to git every time and wait for the GitHub page to rebuild each time.&lt;/p&gt;
+
+&lt;p&gt;Silly me, I didn’t look into it more before, so finally (even though I’ve been using jekyll theme all this time) I turned to having a more efficient website building process. 
+By &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;installing&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/01-setup/&quot;&gt;using&lt;/a&gt; &lt;a href=&quot;https://jekyllrb.com/docs/ruby-101/&quot;&gt;jekyll and bundler for gems&lt;/a&gt; I have streamlined my development workflow and gained more control over the structure and content of my site (&lt;em&gt;by finally being able to &lt;strong&gt;serve&lt;/strong&gt; the website locally for my development&lt;/em&gt;).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;After setting up the project website, use: &lt;code&gt;bundle exec jekyll serve&lt;/code&gt; to run it on a local web server.&lt;/p&gt;
+
+  &lt;p&gt;If you don’t want to rebuild it every time, use &lt;code&gt;serve --livereload&lt;/code&gt; at the end - it will refresh with every change in the files.&lt;/p&gt;
+
+  &lt;p&gt;After testing, to have the build ready to be shipped use &lt;code&gt;bundle exec jekyll build&lt;/code&gt; - if you don’t do that, all the URLs will point to &lt;a href=&quot;&quot;&gt;http://localhost:4000&lt;/a&gt; instead of &lt;a href=&quot;&quot;&gt;https://yourawesomewebsiteurl.github.io&lt;/a&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After lying the groundwork for a more dynamic and feature-rich website, we can go to implementing new features!&lt;/p&gt;
+
+&lt;h3 id=&quot;improving-content-distribution-with-feeds&quot;&gt;Improving content distribution with feeds&lt;/h3&gt;
+
+&lt;p&gt;I’m not that into using feeds, maybe I’m not that old to be growing up with RSS, but I have to say that having the ability to access them on my site could not only improve accessibility, but also improve the discoverability of my content across different platforms and devices.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s always nice to be welcoming and open to everyone!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That being said, I’ve incorporated JSON, XML and RSS feeds into my website - &lt;strong&gt;look at the sidebar!&lt;/strong&gt; By providing structured data in multiple formats, I’ve ensured that visitors can access and engage with my content in the way they prefer.&lt;/p&gt;
+
+&lt;h3 id=&quot;adding-search-engine-visibility-and-indexing&quot;&gt;Adding search engine visibility and indexing&lt;/h3&gt;
+
+&lt;p&gt;When I first put my website online, I quickly realised a crucial missing piece: it wasn’t even indexed by search engines like Google! So unless you came directly to the site via a link, you’d never know it existed.&lt;/p&gt;
+
+&lt;p&gt;To change this, I quickly implemented essential elements such as &lt;code&gt;robots.txt&lt;/code&gt; and &lt;code&gt;sitemap.xml&lt;/code&gt;, which are essential for guiding web crawlers to navigate and index website pages effectively.&lt;/p&gt;
+
+&lt;p&gt;By recognising the importance of search engine optimisation (SEO) and incorporating these essential files, I’ve unlocked the potential for my website to be &lt;a href=&quot;https://www.google.com/search?q=konrad+rydzak+personal+website&quot;&gt;discovered and ranked in search engine results&lt;/a&gt;. This is actually a significant milestone, it allows my content to reach a wider audience and increases its relevance in online searches.&lt;/p&gt;
+
+&lt;h3 id=&quot;elevating-accessibility-ratings-and-achiving-perfect-pagespeed-scores&quot;&gt;Elevating accessibility ratings and achiving perfect PageSpeed Scores&lt;/h3&gt;
+
+&lt;p&gt;As I mentioned earlier, it is always nice to be welcoming and open to everyone! To back up my words, once I’d allowed my site to be searchable online, I set about making sure that the site’s performance, accessibility, best practices and SEO were as good as possible.&lt;/p&gt;
+
+&lt;p&gt;Finding out that &lt;a href=&quot;https://github.com/ronv/sidey&quot;&gt;Sidey jekyll theme&lt;/a&gt; is already great in this regard was extremely helpful. Just a bit of html and css work after my changes for dark mode, and fixing the positions of new features on the site allowed me to get a perfect &lt;strong&gt;4x100/100&lt;/strong&gt; score on Google PageSpeed Insights, both on &lt;a href=&quot;https://pagespeed.web.dev/analysis/https-konradrydzak-github-io/l4m52u9rol?form_factor=desktop&quot;&gt;desktop&lt;/a&gt; and &lt;a href=&quot;https://pagespeed.web.dev/analysis/https-konradrydzak-github-io/l4m52u9rol?form_factor=mobile&quot;&gt;mobile&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion-a-website-transformed&quot;&gt;Conclusion: a Website transformed&lt;/h3&gt;
+
+&lt;p&gt;I’m really happy to have gone through my personal website transformation. It’s been a nice journey of learning, experimenting and finally - great satisfaction.&lt;br /&gt;
+With jekyll as the foundation, feeds for content distribution, SEO essentials for discoverability, improved accessibility for inclusivity, and blazing fast performance for optimal user experience, I’m proud to present a website that somehow sets the bar for greatness - &lt;em&gt;at least for me!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for more updates and improvements as I continue to refine and enhance my online presence.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Switching my personal website theme to dark mode</title>
