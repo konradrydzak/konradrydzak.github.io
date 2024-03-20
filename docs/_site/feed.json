@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Konrad Rydzak personal website",
+    "title": "Konrad Rydzak | Personal website",
     "home_page_url": "https://konradrydzak.github.io/",
     "feed_url": "https://konradrydzak.github.io/feed.json",
-    "description": "My personal website with blog posts, completed projects/courses/tutorials with comments, about me section, contact info and more.",
+    "description": "Blog posts, completed projects/courses/tutorials with comments, an about me section, contact info and more.",
     "icon": "https://konradrydzak.github.io/apple-touch-icon.png",
     "favicon": "https://konradrydzak.github.io/favicon.ico",
     "expired": false,

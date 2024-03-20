@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Konrad Rydzak personal website</title>
+ <title>Konrad Rydzak | Personal website</title>
  <link href="https://konradrydzak.github.io/atom.xml" rel="self"/>
  <link href="https://konradrydzak.github.io/"/>
- <updated>2024-03-19T16:21:13+01:00</updated>
+ <updated>2024-03-20T16:37:06+01:00</updated>
  <id>https://konradrydzak.github.io</id>
  <author>
    <name>konradrydzak</name>
