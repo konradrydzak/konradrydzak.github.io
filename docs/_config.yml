@@ -27,6 +27,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 
 collections:
   pages:

@@ -8,7 +8,7 @@ links:
 - title: Search
   url: /search
 - title: RSS feed
-  url: /atom.xml
+  url: /feed.xml
   separate_before: true
   is_feed: true
 - title: JSON feed
