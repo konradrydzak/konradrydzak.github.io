@@ -26,7 +26,9 @@ title: Search
 
 <!-- Html Elements for Search -->
 <div id="search-container">
+<label for="search-input">
 <input type="text" id="search-input" placeholder="Search...">
+</label>
 <ol id="results-container"></ol>
 </div>
 
